@@ -1,0 +1,10 @@
+.links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 200;
+
+  margin-right: 20px;
+}

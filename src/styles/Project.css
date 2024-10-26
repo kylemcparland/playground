@@ -1,0 +1,25 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  width: 40%;
+}
+
+.project-name {
+  font-family: "Newsreader", serif;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.project-photo {
+  overflow: hidden;
+}
+
+.project-photo img {
+  width: 100%;
+}
+
+.project-description {
+  width: 80%;
+}

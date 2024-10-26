@@ -1,0 +1,59 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.page-content {
+  background-color: pink;
+}
+
+.header-container {
+    background-color: black;
+
+    height: 88%;
+    /* max-height: 800px; */
+    min-height: 750px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.kyle-skills-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kyle-skills-container p {
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 40%
+}
