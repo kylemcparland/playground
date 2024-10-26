@@ -2,7 +2,8 @@
     font-family: "Newsreader", serif;
     color: white;
     font-style: normal;
-    font-size: 80px;
+    font-size: clamp(80px, 100px, 200px); 
+    /* Min - preferred - max */
     z-index: 999;
 }
 
@@ -16,9 +17,9 @@
 }
 
 .test {
-  color: #faf8f4;
+  color: #0c0c0c;
   z-index: 0;
   position: absolute;
-  font-size: 225px;
+  font-size: 300px;
   font-weight: 900;
 }

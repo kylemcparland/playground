@@ -1,0 +1,12 @@
+.kyle-description-box {
+  font-family: "Newsreader", serif;
+  color: black;
+  /* background-color: bisque; */
+  font-size: 30px;
+  padding: 30px;
+
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+  /* border: 2px dashed black; */
+}

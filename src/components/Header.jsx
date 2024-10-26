@@ -30,8 +30,8 @@ const Header = () => {
   // Calculate fontWeight based on mouse y position (inverted)
   const fontWeight =
     mousePosition.y !== null
-      ? 800 - (mousePosition.y / windowHeight) * (800 - 400) // Inverted: goes up when mouse moves up
-      : 700; // Default to 400 if mousePosition.y is null
+      ? 800 - (mousePosition.y / windowHeight) * (800 - 300) // Inverted: goes up when mouse moves up
+      : 400; // Default to 400 if mousePosition.y is null
 
   // Calculate scaleX based on mouse x position
   const scaleX =
@@ -40,7 +40,7 @@ const Header = () => {
       : 1; // Default to 1 if mousePosition.x is null
 
   const fontStyle = {
-    fontWeight: Math.min(Math.max(fontWeight, 400), 800), // Ensure it stays within 400 to 800
+    fontWeight: Math.min(Math.max(fontWeight, 300), 800), // Ensure it stays within 400 to 800
     transform: `scaleX(${scaleX})`, // Apply horizontal scaling
   };
 

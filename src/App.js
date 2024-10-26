@@ -2,6 +2,7 @@ import Terminal from "./components/Terminal";
 import Header from "./components/Header";
 import Project from "./components/Project";
 import Navbar from "./components/Navbar";
+import Description from "./components/Description";
 import "./styles/App.css";
 
 function App() {
@@ -15,7 +16,11 @@ function App() {
       </div>
 
       <div className="page-content">
-        <div className="terminal-container">
+        <div className="kyle-description-container">
+          <Description />
+        </div>
+
+        {/* <div className="terminal-container">
           <Terminal />
           <div className="kyle-skills-container">
             <img className="logo" src="/logotest.png"></img>
@@ -24,7 +29,7 @@ function App() {
               Express, Node.js, CSS, HTML
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="projects-container">
           <Project />
           <Project />
